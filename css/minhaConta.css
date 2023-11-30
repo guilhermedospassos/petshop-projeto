@@ -1,0 +1,129 @@
+/* Estilos gerais */
+
+.container-1 {
+  width: auto;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.container-1 button {
+  height: 50px;
+  width: 113px;
+  border: 1px solid #5227cc;
+  border-radius: 6px;
+  background-color: white;
+  color: #5227cc;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.container-1 :nth-child(2) {
+  height: 50px;
+  width: 143px;
+}
+
+.container-1 button:focus {
+  background-color: #5227cc;
+  color: white;
+}
+
+.cadastrar {
+  height: 360px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadastrar h1 {
+  font-size: 32px;
+  padding-bottom: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.cadastrar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cadastrar ul li input {
+  height: 34px;
+  width: 586px;
+  border-radius: 6px;
+  border: 1px solid #dee2e6;
+  padding-left: 10px;
+}
+
+.termos {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  gap: 5px;
+  padding-bottom: 20px;
+}
+
+.cadastrar button {
+  height: 50px;
+  width: 600px;
+  text-transform: uppercase;
+  background-color: #5227cc;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+}
+
+.entrar {
+  height: 360px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.entrar h1 {
+  font-size: 32px;
+  padding-bottom: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.entrar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.entrar ul li input {
+  height: 34px;
+  width: 586px;
+  border-radius: 6px;
+  border: 1px solid #dee2e6;
+  padding-left: 10px;
+}
+
+.entrar button {
+  height: 50px;
+  width: 600px;
+  text-transform: uppercase;
+  background-color: #5227cc;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 20px;
+}

@@ -1,0 +1,31 @@
+/* Header */
+
+.header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: #7749f8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 140px;
+  width: auto;
+}
+
+.header input {
+  width: 600px;
+  height: 38px;
+}
+
+.header .botao-conta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .botao-conta a {
+  color: white;
+}

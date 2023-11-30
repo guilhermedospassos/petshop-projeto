@@ -1,0 +1,14 @@
+/* Navegacao */
+
+nav {
+  background-color: #5227cc;
+  height: 60px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+  gap: 24px;
+}

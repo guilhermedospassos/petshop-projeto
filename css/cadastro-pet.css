@@ -1,0 +1,72 @@
+/* Estilos gerais */
+
+.container-1 {
+    width: auto;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 50px;
+    width: auto;
+    height: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+form > div {
+    justify-self: start;
+    align-self: start;
+    height: 10px;
+}
+
+form input:nth-child(-n+3) {
+    margin: 5px 30px 0px 0px;
+    height: 38px;
+    width: 320px;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+}
+
+form select:nth-child(-n+3) {
+    margin: 5px 30px 0px 0px;
+    height: 38px;
+    width: 320px;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+}
+
+form input:nth-child(-n+3)::placeholder {
+    padding-left: 5px;
+}
+
+form select:nth-child(-n+3)::placeholder {
+    padding-left: 5px;
+}
+
+#botao {
+    grid-column: 2;
+    height: 50px;
+    width: 155px;
+    justify-self: center;
+    background-color: #7749F8;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+form label {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

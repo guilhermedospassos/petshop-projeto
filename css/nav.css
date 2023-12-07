@@ -2,13 +2,13 @@
 
 nav {
   background-color: #5227cc;
-  height: 60px;
+  height: 3.75rem;
 }
 
 nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 8px;
-  gap: 24px;
+  padding-top: 0.5rem;
+  gap: 1.5rem;
 }

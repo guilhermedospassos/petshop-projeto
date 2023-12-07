@@ -1,8 +1,8 @@
 .container-1 {
-  height: 150px;
+  height: 9.375rem;
   width: auto;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 48px;
+  font-size: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,21 +12,21 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 form input:nth-child(3) {
-  margin: 5px 30px 0px 0px;
-  height: 38px;
-  width: 320px;
+  margin: 0.3125rem 1.875rem 0px 0px;
+  height: 2.375rem;
+  width: 20rem;
   border: 1px solid #d0d5dd;
   border-radius: 6px;
 }
 
 form select {
-  margin: 5px 30px 0px 0px;
-  height: 38px;
-  width: 320px;
+  margin: 0.3125rem 1.875rem 0px 0px;
+  height: 2.375rem;
+  width: 20rem;
   border: 1px solid #d0d5dd;
   border-radius: 6px;
 }
@@ -39,26 +39,26 @@ form label {
 
 #checkbox {
   position: absolute;
-  bottom: 55px;
-  right: 455px;
+  bottom: 3.4375rem;
+  right: 28.4375rem;
 }
 
 #p {
   position: absolute;
-  bottom: 56px;
-  right: 380px;
+  bottom: 3.5rem;
+  right: 23.75rem;
 }
 
 #botao {
-  height: 50px;
-  width: 220px;
+  height: 3.125rem;
+  width: 13.75rem;
   justify-self: center;
   background-color: #7749f8;
   border-radius: 6px;
   border: none;
   color: white;
-  font-size: 16px;
-  margin-top: 50px;
+  font-size: 1rem;
+  margin-top: 3.125rem;
 }
 
 form .telebusca {
@@ -68,37 +68,37 @@ form .telebusca {
 .mostrar {
   display: grid;
   position: absolute;
-  right: 5px;
-  top: 450px;
+  right: 0.3125rem;
+  top: 28.125rem;
 }
 
 #endereco {
-  margin: 5px 30px 0px 0px;
-  height: 38px;
-  width: 320px;
+  margin: 0.3125rem 1.875rem 0px 0px;
+  height: 2.375rem;
+  width: 20rem;
   border: 1px solid #d0d5dd;
   border-radius: 6px;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 #cep {
-  margin: 5px 30px 0px 0px;
-  height: 38px;
-  width: 320px;
+  margin: 0.3125rem 1.875rem 0px 0px;
+  height: 2.375rem;
+  width: 20rem;
   border: 1px solid #d0d5dd;
   border-radius: 6px;
 }
 
 .container-2 {
-  height: 150px;
+  height: 9.375rem;
   width: auto;
   display: flex;
   justify-content: center;
 }
 
 .container-2 p {
-  padding-top: 50px;
-  width: 490px;
+  padding-top: 3.125rem;
+  width: 30.625rem;
   font-family: Arial, Helvetica, sans-serif;
   opacity: 50%;
   line-height: 1.1;
@@ -108,18 +108,18 @@ form .telebusca {
   .mostrar {
     display: grid;
     position: absolute;
-    right: 280px;
-    top: 460px;
+    right: 17.5rem;
+    top: 28.75rem;
   }
   #checkbox {
     position: absolute;
-    bottom: 420px;
-    right: 750px;
+    bottom: 26.25rem;
+    right: 46.875rem;
   }
 
   #p {
     position: absolute;
-    bottom: 421px;
-    right: 675px;
+    bottom: 26.3125rem;
+    right: 42.1875rem;
   }
 }

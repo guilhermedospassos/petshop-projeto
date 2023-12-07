@@ -1,0 +1,72 @@
+/* Estilos gerais */
+
+.container-1 {
+  width: auto;
+  height: 11.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 6.25rem 6.25rem 8rem;
+  width: auto;
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
+}
+
+form > div {
+  justify-self: start;
+  align-self: start;
+  height: 0.625rem;
+}
+
+form input:nth-child(-n + 3) {
+  margin: 0.3125rem 1.875rem 0px 0px;
+  height: 2.375rem;
+  width: 20rem;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+}
+
+form select:nth-child(-n + 3) {
+  margin: 0.3125rem 1.875rem 0px 0px;
+  height: 2.375rem;
+  width: 20rem;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+}
+
+form input:nth-child(-n + 3)::placeholder {
+  padding-left: 0.3125rem;
+}
+
+form select:nth-child(-n + 3)::placeholder {
+  padding-left: 0.3125rem;
+}
+
+#botao {
+  grid-column: 2;
+  height: 3.125rem;
+  width: 9.6875rem;
+  justify-self: center;
+  background-color: #7749f8;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  margin-top: 3.125rem;
+}
+
+footer {
+  margin-top: 6.25rem;
+}
+
+form label {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}

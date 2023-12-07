@@ -1,0 +1,238 @@
+.container-1 {
+  height: 18.75rem;
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
+
+.container-1 h1 {
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-bottom: 2.5rem;
+}
+
+.container-1 p {
+  font-size: 1.25rem;
+  max-width: 65.625rem;
+}
+
+.container-2 {
+  display: flex;
+}
+
+.container-2 .lado-esq {
+  width: 40.625rem;
+  height: 28.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3.125rem;
+  align-items: center;
+}
+
+.container-2 .lado-esq h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 3.4375rem;
+  padding-bottom: 1.875rem;
+}
+
+.container-2 .preco-container {
+  display: flex;
+  gap: 0.8125rem;
+  align-items: center;
+}
+
+.container-2 .preco-container p:nth-child(1) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.125rem;
+}
+
+.container-2 .preco-container .valor {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #7749f8;
+}
+
+.container-2 .lado-esq a {
+  width: 10.8125rem;
+  height: 2.1876rem;
+  background-color: #5227cc;
+  color: white;
+  text-align: center;
+  padding-top: 1.25rem;
+  border-radius: 0.675rem;
+  margin-top: 1.875rem;
+}
+
+.container-2 .lado-dir img {
+  max-width: 34.375rem;
+  max-height: 37.5rem;
+  padding-top: 2.8125rem;
+}
+
+.container-2 .lado-dir {
+  width: 50rem;
+  height: 28.125rem;
+  background-color: #7749f8;
+  box-shadow: inset 2.5rem 0px white;
+  border-radius: 0.625rem 0 0 0.625rem;
+  border: none;
+}
+
+.container-3 {
+  padding-top: 5rem;
+  display: flex;
+}
+
+.container-3 .lado-esq {
+  width: 50rem;
+  height: 28.125rem;
+  background-color: #7749f8;
+  box-shadow: inset -9.375rem 0px white;
+  border-radius: 0 0.625rem 0.625rem 0;
+  border: none;
+  display: grid;
+  justify-content: center;
+}
+
+.container-3 .lado-esq img {
+  max-width: 34.375rem;
+  max-height: 37.5rem;
+  padding-top: 2.8125rem;
+}
+
+.container-3 .lado-dir {
+  width: 40.625rem;
+  height: 28.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3.125rem;
+  align-items: center;
+}
+
+.container-3 .lado-dir h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 3.4375rem;
+  padding-bottom: 3.125rem;
+}
+
+.container-3 .preco-container {
+  display: flex;
+  gap: 0.8125rem;
+  align-items: center;
+}
+
+.container-3 .preco-container p:nth-child(1) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.125rem;
+}
+
+.container-3 .preco-container .valor {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #7749f8;
+}
+
+.container-3 .lado-dir a {
+  width: 10.8125rem;
+  height: 2.1875rem;
+  background-color: #5227cc;
+  color: white;
+  text-align: center;
+  padding-top: 1.25rem;
+  border-radius: 0.675rem;
+  margin-top: 1.875rem;
+}
+
+.container-4 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #7749f8;
+  margin-top: 7.5rem;
+  align-items: center;
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+
+.container-4 .imagem-1 {
+  width: 15.625rem;
+}
+
+.container-4 .imagem-2 {
+  width: 15.625rem;
+}
+
+.container-4 .meio {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.container-4 .meio h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.container-4 .meio h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: white;
+  padding-bottom: 3.125rem;
+}
+
+.container-4 .preco-container {
+  display: flex;
+  gap: 0.8125rem;
+  align-items: center;
+}
+
+.container-4 .preco-container p:nth-child(1) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.125rem;
+  color: white;
+}
+
+.container-4 .preco-container .valor {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: #000;
+}
+
+.container-4 .meio a {
+  width: 10.8125rem;
+  height: 2.1875rem;
+  background-color: white;
+  color: #7749f8;
+  text-align: center;
+  padding-top: 1.25rem;
+  border-radius: 0.675rem;
+  margin-top: 0.625rem;
+}
+
+@media (min-width: 1800px) {
+  .container-2 .lado-esq {
+    width: 60rem;
+  }
+  .container-2 .lado-dir {
+    width: 60rem;
+  }
+  .container-3 .lado-esq {
+    width: 60rem;
+  }
+  .container-3 .lado-dir {
+    width: 60rem;
+  }
+  .container-3 .lado-esq img {
+    padding-left: 9.5rem;
+  }
+  .container-1 {
+    padding-left: 25rem;
+  }
+}

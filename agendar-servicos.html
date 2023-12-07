@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/minhaConta.css">
+    <link rel="stylesheet" href="./css/agendar-servicos.css">
 </head>
 
 <body>
@@ -52,48 +52,58 @@
         </ul>
     </nav>
 
-    <div id="container" class="container-1">
-        <button id="entrar">Entrar</button>
-        <button id="cadastrar">Cadastrar</button>
+    <div class="container-1">
+        <h1>Agende seu serviço</h1>
     </div>
 
-    <div id="cad" class="cadastrar">
-        <h1>Olá, seja bem-vindo(a)!</h1>
-        <ul>
-            <li>
-                <input type="text" placeholder="Nome e Sobrenome">
-            </li>
-            <li>
-                <input type="email" placeholder="E-mail">
-            </li>
-            <li>
-                <input type="password" placeholder="Senha">
-            </li>
-            <li>
-                <input type="password" placeholder="Digite a senha novamente">
-            </li>
-        </ul>
+    <form action="">
 
-        <div class="termos">
-            <input type="checkbox">
-            <p>Aceito os termos e condições</p>
+        <div>
+            <label for="seu-pet">SEU PET</label>
+            <br>
+            <select name="seu-pet" id="seu-pet">
+                <option value="">Selecione</option>
+                <option value=""></option>
+            </select>
         </div>
 
-        <button>criar conta</button>
-    </div>
+        <div>
+            <label for="tipo-serv">TIPO de serviço</label>
+            <br>
+            <select name="servico" id="tipo-serv">
+                <option value="">Selecione</option>
+                <option value="banho">Banho</option>
+                <option value="tosa">Tosa</option>
+                <option value="combo">Banho e Tosa</option>
+            </select>
+        </div>
 
-    <div id="log" class="entrar">
-        <h1>Olá, novamente!</h1>
-        <ul>
-            <li>
-                <input type="email" placeholder="E-mail">
-            </li>
-            <li>
-                <input type="password" placeholder="Senha">
-            </li>
-        </ul>
+        <div class="last">
+            <label for="data">DATA DESEJADA</label>
+            <br>
+            <input type="date" id="data" placeholder="dd/mm/aaaa">
 
-        <button>entrar</button>
+            <div>
+                <input id="checkbox" type="checkbox">
+                <p id="p">Tele-busca</p>
+            </div>
+        </div>
+
+        <input type="submit" id="botao" value="Realizar Agendamento">
+
+        <div class="telebusca">
+            <label for="endereco">endereço</label>
+            <input type="text" id="endereco">
+
+            <label for="cep">CEP</label>
+            <input type="number" id="cep">
+        </div>
+    </form>
+
+    <div class="container-2">
+        <p>Aviso: após clicar em "Realizar Agendamento", você receberá um e-mail de confirmação no endereço fornecido
+            durante o seu cadastro. Nesse e-mail, você encontrará informações detalhadas sobre a data e horário
+            escolhidos, bem como o valor do serviço. </p>
     </div>
 
     <footer>
@@ -111,7 +121,7 @@
         </div>
     </footer>
 
-    <script src="./conta.js"></script>
+    <script src="agendar.js"></script>
 </body>
 
 </html>

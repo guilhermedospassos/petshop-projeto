@@ -1,0 +1,123 @@
+.container-1 {
+  height: 150px;
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+form input:nth-child(3) {
+  margin: 5px 30px 0px 0px;
+  height: 38px;
+  width: 320px;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+}
+
+form select {
+  margin: 5px 30px 0px 0px;
+  height: 38px;
+  width: 320px;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+}
+
+form label {
+  text-transform: uppercase;
+}
+
+#checkbox {
+  position: absolute;
+  bottom: 55px;
+  right: 455px;
+}
+
+#p {
+  position: absolute;
+  bottom: 56px;
+  right: 380px;
+}
+
+#botao {
+  height: 50px;
+  width: 220px;
+  justify-self: center;
+  background-color: #7749f8;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+form .telebusca {
+  display: none;
+}
+
+.mostrar {
+  display: grid;
+  position: absolute;
+  right: 5px;
+  top: 450px;
+}
+
+#endereco {
+  margin: 5px 30px 0px 0px;
+  height: 38px;
+  width: 320px;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+#cep {
+  margin: 5px 30px 0px 0px;
+  height: 38px;
+  width: 320px;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+}
+
+.container-2 {
+  height: 150px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.container-2 p {
+  padding-top: 50px;
+  width: 490px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 50%;
+  line-height: 1.1;
+}
+
+@media (min-width: 1800px) {
+  .mostrar {
+    display: grid;
+    position: absolute;
+    right: 280px;
+    top: 460px;
+  }
+  #checkbox {
+    position: absolute;
+    bottom: 420px;
+    right: 750px;
+  }
+
+  #p {
+    position: absolute;
+    bottom: 421px;
+    right: 675px;
+  }
+}

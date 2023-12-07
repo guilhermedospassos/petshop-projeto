@@ -40,6 +40,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .cadastrar h1 {
@@ -91,6 +92,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .entrar h1 {
@@ -126,4 +128,12 @@
   border-radius: 6px;
   border: none;
   margin-top: 20px;
+}
+
+.esconder {
+  display: none;
+}
+
+.espaco {
+  margin-bottom: 460px;
 }

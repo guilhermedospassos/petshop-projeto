@@ -34,8 +34,16 @@ form input:nth-child(-n + 3) {
 
 form select:nth-child(-n + 3) {
   margin: 0.3125rem 1.875rem 0px 0px;
-  height: 2.375rem;
-  width: 20rem;
+  height: 2.765rem;
+  width: 20.5rem;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+}
+
+#data {
+  margin: 0.3125rem 1.875rem 0px 0px;
+  height: 2.6rem;
+  width: 20.5rem;
   border: 1px solid #d0d5dd;
   border-radius: 6px;
 }
